@@ -1,19 +1,6 @@
 package examples1;
 
-// Parent/base Class
-class Animal {
-	public void Hello() {
-		System.out.println("The dog says hello.");
-	}
-}
-
-//Child class
-class Dog extends Animal {
-	public void Hello() {
-		System.out.println("Doggo goes woof!");
-	}
-}
-
+//Main class that calls the classes.
 class ExampleOne {
 	public static void main (String[] args) {
 		Animal animal1 = new Animal();
